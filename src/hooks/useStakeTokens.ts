@@ -38,7 +38,8 @@ export const useStakeTokens = (tokenAddress: string) => {
         if (approveAndStakeErc20State.status === "Success") {
             stakeSend(amountToStake, tokenAddress)
         }
-    }, [approveAndStakeErc20State, amountToStake, tokenAddress, stakeSend])
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [approveAndStakeErc20State, amountToStake, tokenAddress])
 
     const [state, setState] = useState(approveAndStakeErc20State)
 
