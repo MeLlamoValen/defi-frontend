@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 /* eslint-disable spaced-comment */
 /// <reference types="react-scripts" />
 import { useEthers } from "@usedapp/core"

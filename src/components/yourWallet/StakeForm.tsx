@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from "react"
 import { Token } from "../Main"
 import { useEthers, useTokenBalance, useNotifications } from "@usedapp/core"
